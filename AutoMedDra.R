@@ -39,8 +39,8 @@ for( a in 1:nrow(data) ){
   # set a low limit for the index
   if( max(ma) > 0.5 ){ 
     
-    # select the position of the highest levenshteinSim index calculated
-    maxi <- which.max(ma)
+          # select the position of the highest levenshteinSim index calculated
+          maxi <- which.max(ma)
 	  data$PT[a] <- PT$pt_name[ maxi ]
 	  # use the pt_soc_code for select the soc_name
 	  soc_code_t = PT$pt_soc_code[ maxi ]
