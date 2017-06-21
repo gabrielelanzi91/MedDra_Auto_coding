@@ -9,15 +9,15 @@
 
 
 # import MedDra PT dataset 
-PT <- read.table("G:/pt.asc", header=FALSE,sep="$", stringsAsFactors=FALSE)
+PT <- read.table("G:/pt.asc", header=FALSE, sep="$", stringsAsFactors=FALSE)
 colnames(PT) <- c("1","pt_name","2","pt_soc_code")
 
 # import MedDra SOC dataset 
-SOC <- read.table("G:/soc.asc", header=FALSE,sep="$", stringsAsFactors=FALSE)
+SOC <- read.table("G:/soc.asc", header=FALSE, sep="$", stringsAsFactors=FALSE)
 colnames(SOC) <- c("soc_code","soc_name")
 
 # import Medical Events dataset
-data <- read.table("G:/mydata.txt" , col.names ='ae' , sep="$", stringsAsFactors=FALSE)
+data <- read.table("G:/mydata.txt", header=FALSE, col.names ='ae' , sep="$", stringsAsFactors=FALSE)
 
 
 # Install the RecordLinkage package for strings comparison
