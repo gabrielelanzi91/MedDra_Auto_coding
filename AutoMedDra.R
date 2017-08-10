@@ -3,6 +3,7 @@
 #' [Author] Gabriele Lanzi         #
 #' [Title] R - MedDra Auto coding  #
 #' [Release date] 21-06-2017       #
+#' http://gabrielelanzi.hol.es/    #
 #' #################################
 #' For more informations about MedDra: 
 #' https://www.meddra.org/
